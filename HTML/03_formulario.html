@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Jose Antonio Cabañas</title>
+<meta name="Description" content="01 maquetacion">
+    
+ <style>
+    .container{
+     width: 800px;
+     margin: auto;
+    }
+    div, header, nav, main, footer, section, article, sidebar{
+        border: 1px solid gray;
+        margin: 2px;
+        padding: 2px
+    }
+     main{background: pink;   }
+     section{ background: #F9F5C9;}
+     article{ background: #E2E2E2;}
+     
+</style>
+
+</head>
+
+<body>
+    
+    <div class="container">
+      <header>Encabezado</header>
+     
+      <nav>
+        <ul>
+          <li>opcion</li>
+          <li>opcion</li>
+        </ul>
+      </nav>
+
+      <main>Zona de informacion
+        <section> 
+            <article>Articulo
+
+              <form>
+
+                <label for="nombre">nombre</label>
+                <input type="text" name="nombre">
+                <br>
+                <label for="email">E-mail</label>
+                <input type="email" name="email">
+                <br>
+                <label for="genero">genero</label>
+                <input type="radio" name="genero">hombre
+                <input type="radio" name="genero">mujer
+                <br>
+                <label for="pais">pais</label>
+                <select>
+                  <option>- Seleccione una opcion-</option>
+                  <option>Mexico</option>
+                  <option>Estados Unidos</option>
+                  <option>Canada</option>
+                  <option>otro</option>
+
+                </select>
+                
+              </form>
+
+            </article> 
+        </section>
+      </main>
+      
+      <footer>pie</footer>
+
+    </div>
+    
+</body>
+</html>

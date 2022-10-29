@@ -1,0 +1,17 @@
+#box{
+    width: 900px;
+    background: cyan;
+}
+
+
+.inline, .block{
+    color: white;
+    margin: 10px;
+    padding: 10px;
+    background: purple;
+    border: 3px solid green;
+}
+
+.block{
+    background: red;
+}
