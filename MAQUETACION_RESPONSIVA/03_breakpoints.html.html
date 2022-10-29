@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, shrink-to-feet=no" />
+<meta charset="UTF-8">
+
+<title>Jose Antonio Cabañas Gervasio</title>
+<meta name="Description" content="01_base_maquetacion">
+    
+
+ <style>
+     /*Clase para el contenedor global*/
+    .container{
+     width: 800px;
+     margin: auto; /*forza a centrado horizontal en la ventana*/
+    }
+     /*Observa que usamos medidas dinámicas*/
+     section{ 
+         background: #F9F5C9;
+         margin: 1% 0;
+         padding: 1% 0;
+     }
+     
+     /*Clase usamos para interrupir la flotación*/
+     .clear{ clear: both;}
+
+     .col2{
+    
+    background: pink;
+    width: 50%;
+    margin: 1% 0%;
+    float: left;   
+    padding: 1%;
+    box-sizing: border-box; 
+}
+.col3{
+    
+    background: pink;
+    width: 33%;
+    margin: 1% 0%;
+    float: left;   
+    padding: 1%;
+    box-sizing: border-box; 
+}
+.col4{
+    
+    background: pink;
+    width: 20%;
+    margin: 1% 0%;
+    float: left;   
+    padding: 1%;
+    box-sizing: border-box; 
+}
+nav ul{
+    margin: auto;
+    width: 450px;
+    background: cyan;
+    padding: 0;
+}
+nav ul li{
+    text-align: center;
+    width: 33.33%;
+    background: lightpink;
+    list-style: none;
+    padding: 10px 0;
+    float: left;
+}
+nav ul li:hover{
+    background: #E44DFE;
+}
+nav ul li a{
+
+    text-decoration: none;
+    color: darkblue;
+}
+
+@media screen and (min-width: 768px) {
+    .container, nav ul, .col2, .col3, .col4{
+        width: 100%;
+    }
+}
+
+</style>
+
+</head>
+
+<body>
+    
+    
+    <div class="container">
+        <header>
+            NOMBRE DE LA PÁGINA
+        </header>
+        <nav>
+            <ul>
+                <li><a href="#">Opción 1</a></li>
+                <li><a href="#">Opción 2</a></li>
+                <li><a href="#">Opción 3</a></li>
+                <br class="clear">
+            </ul>
+            
+        </nav>
+        <main>
+            <section>
+                <article class="col2">Columna 1</article>
+                <article class="col2">Columna 2</article>
+                <br class="clear">
+            </section>
+
+            <section>
+                <article class="col3">Columna 1</article>
+                <article class="col3">Columna 2</article>
+                <article class="col3">Columna 3</article>
+                <br class="clear">
+            </section>
+
+            <section>
+                <article class="col4">Columna 1</article>
+                <article class="col4">Columna 2</article>
+                <article class="col4">Columna 3</article>
+                <article class="col4">Columna 4</article>
+                <article class="col4">Columna 5</article>
+                <br class="clear">
+            </section>
+            </main>
+        <footer>Información legal 2019</footer>
+      
+    </div>
+    
+</body>
+</html>

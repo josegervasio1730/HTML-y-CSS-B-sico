@@ -1,0 +1,55 @@
+#container{
+   
+}
+.col2{
+    
+    background: pink;
+    width: 50%;
+    margin: 1% 0%;
+    float: left;   
+    padding: 1%;
+    box-sizing: border-box; 
+}
+.col3{
+    
+    background: pink;
+    width: 33%;
+    margin: 1% 0%;
+    float: left;   
+    padding: 1%;
+    box-sizing: border-box; 
+}
+.col4{
+    
+    background: pink;
+    width: 20%;
+    margin: 1% 0%;
+    float: left;   
+    padding: 1%;
+    box-sizing: border-box; 
+}
+.clear{
+    clear: both;
+}
+nav ul{
+    margin: auto;
+    width: 450px;
+    background: cyan;
+    padding: 0;
+}
+nav ul li{
+    text-align: center;
+    width: 33.33%;
+    background: lightpink;
+    list-style: none;
+    padding: 10px 0;
+    float: left;
+}
+nav ul li:hover{
+    background: #E44DFE;
+}
+nav ul li a{
+
+    text-decoration: none;
+    color: darkblue;
+}
