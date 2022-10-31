@@ -1,0 +1,54 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>FLEXBOX</title>
+<style>
+.contenedor {
+  /* 1. Prueba antes de modificar.*/
+  /* 2. Indica display: flex; a continuación*/
+	display: flex;
+  /* 3. Declara align-items: center; y prueba. ES PARA ESPACIAR LINEAS ENTRE SÍ */
+	lign-items: center;
+  /*4. Agrega también flex-wrap: wrap; y prueba */
+	flex-wrap: wrap;
+  /* 5. Declara  align-content: center; ES PARA INDICAR POSICIÓN DE ELEMENTOS DE DENTRO DE UNA LÍNEA*/
+	align-content: flex-start, flex-end, space-between, space-around y  stretch;;
+  /* 6. Cambia los valores para align-content flex-start, flex-end, space-between, space-around y  stretch;*/	
+  height: 400px;
+  background-color: #0C3F7A;
+}
+
+.contenedor > div {
+  background-color: #FFF;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+</style>
+</head>
+<body>
+<h1>Flexible Box align-content</h1>
+
+<div class="contenedor">
+  <div>A y más y más </div>
+  <div>B</div>
+  <div>C</div>  
+  <div>D</div>
+  <div>E</div>
+  <div>F</div>  
+  <div>G</div>
+  <div>H</div>
+  <div>I y más</div>
+  <div>J</div>
+  <div>K</div>  
+  <div>L</div>
+  <div>M</div>
+  <div>N y más y más</div>  
+  <div>Ñ</div>
+  <div>O</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>FLEXBOX</title>
+<style>
+.contenedor {
+  /* 1. Prueba antes de modificar.*/
+  /* 2. Indica display: flex; a continuación*/
+	display: flex;
+  /* 3. Declara flex-flow: row nowrap; Esta propiedad junta las anteriores: wrap y direction */
+	flex-flow: row nowrap;
+    /* 4. Juega cambiando los valores que aplicaste en los dos ejercicios anteriores*/
+  background-color: #0C3F7A;
+}
+
+.contenedor > div {
+  background-color: #FFF;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+</style>
+</head>
+<body>
+<h1>Flexible Box Flex Flow</h1>
+
+<div class="contenedor">
+  <div>A</div>
+  <div>B</div>
+  <div>C</div>  
+  <div>D</div>
+  <div>E</div>
+  <div>F</div>  
+  <div>G</div>
+  <div>H</div>
+</div>
+</body>
+</html>
