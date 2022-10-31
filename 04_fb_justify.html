@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>FLEXBOX</title>
+<style>
+.contenedor {
+  /* 1. Prueba antes de modificar.*/
+  /* 2. Indica display: flex; a continuación*/
+	display: flex;
+  /* 3. Indica ahora flex-direction: row; */
+  flex-direction: row;
+  /* 4. Escribe a continuación justify-content: flex-start; Prueba*/
+	 justify-content: space-between, center, flex-end  space-around;
+  /* 5. Prueba cambiando el valor para justify-content con space-between, center, flex-end  space-around*/
+	/*Nota: space between distribuye en relación al ancho del contenedor y space-around lo hace en relación a los elementos y su espacio circundante*/
+  background-color: #0C3F7A;
+}
+
+.contenedor > div {
+  background-color: #FFF;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+</style>
+</head>
+<body>
+<h1>Flexible Box justify-content</h1>
+
+<div class="contenedor">
+  <div>A</div>
+  <div>B</div>
+  <div>C</div>  
+  <div>D</div>
+
+</div>
+</body>
+</html>
